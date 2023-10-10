@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Righteous&family=Source+Sans+3&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Righteous&family=Source+Sans+3:ital,wght@0,400;1,200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*  BARRA DE NAVEGACION 1RA */
+
+nav a {
+    font-size: 20px;
+    padding-right: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #bbbbbb;
+    text-decoration: underline overline white;
+}
+
+.nav_link {
+    color: aliceblue;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 10px;
+    background: rgb(0, 0, 0);
+}
+
+
+h1 {
+    color: aliceblue;
+    padding: 15px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 80px;
+}
+
+.busqueda {
+    padding: 100px;
+}
+
+.head_inputtext {
+    padding: 5px;
+}
+
+.head_inputboton {
+    padding: 5px;
+}
+
+.cuenta {
+    padding: 20px;
+}
+
+.cuenta a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Source Sans 3', sans-serif;
+    padding: 10px;
+}
+
+.cuenta a:hover {
+    text-decoration: underline;
+}
+
+/*  BARRA DE NAVEGACION 2DA */
+
+.bar_nav {
+    font-family: 'Fjalla One', sans-serif;
+    color: aliceblue;
+    display: flex;
+    height: 50px;
+    padding: 10px;
+    background: rgb(0, 0, 0);
+    border-top: #ffffff solid;
+    border-left: 5px;
+    border-color: #bbbbbb;
+    align-items: start;
+    justify-content: space-around;
+}
+
+/*  IMAGEN DE MUESTRA  */
+
+.img_principal {
+    background-image: url("../img/muestra.webp");
+    background-repeat: no-repeat;
+    height: 83vh;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-inline: 350px;
+    box-shadow: 0px 4px 5px 2px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 4px 5px 2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 4px 5px 2px rgba(0, 0, 0, 0.75);
+}
+
+.img_principal h2 {
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    padding: 10px;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 40px;
+}
+
+.img_principal p {
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+.img_boton {
+    padding: 25px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    margin: 50px;
+    border-style: none;
+    background-color: #000000;
+}
+
+.botonropa a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.botonropa a:hover {
+    color: #bbbbbb;
+}
+
+/*  TARJETAS  */
+
+.tarjetas_pra {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tarjeta_envio {
+    padding: 30px;
+    padding-top: 32px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.info_tarjeta {
+    color: black;
+    padding: 0 15px 15px 15px;
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+.img_envio {
+    max-width: 80px;
+}
+
+/*  TARJETAS PRODUCTOS  */
+
+.tarjetas {
+    padding: 60px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.tarjetita {
+    background-color: #000000;
+    border-radius: 30px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1;
+    -webkit-box-shadow: 2px 1px 36px 1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 2px 1px 36px 1px rgba(0, 0, 0, 0.75);
+    box-shadow: 2px 1px 36px 1px rgba(0, 0, 0, 0.75);
+}
+
+.informacion {
+    color: white;
+    padding: 0 20px 15px 30px;
+    font-family: 'Source Sans 3', sans-serif;
+
+}
+
+.tarjetita__imagen {
+    max-width: 100%;
+}
+
+.tarjetas ul {
+    color: white;
+    list-style-type: none;
+}
+
+.tarjetas a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.destacados h2 {
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.destacados li {
+    padding: 5px;
+    font-size: 30;
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+
+.destacados li:hover {
+    text-decoration: underline;
+}
+
+.destacados {
+    padding: 10px;
+}
+
+/*  FOOTER  */
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #000000;
+    color: white;
+    padding-block: 30px;
+    font-family: 'Kanit', sans-serif;
+    box-shadow: -2px -3px 5px 2px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -2px -3px 5px 2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -2px -3px 5px 2px rgba(0, 0, 0, 0.75);
+}
+
+/*  IMAGENES DE TARJETAS  */
+
+.paymetod {
+    display: grid;
+}
+
+.card-img {
+    width: auto;
+    height: 25px;
+    border: 1px solid #00000012;
+}
+
+.pagos {
+    display: grid;
+    grid-template-columns: 38px 38px 38px;
+    grid-template-rows: 25px 25px 25px;
+    padding: 10px;
+}
+
+/*  REDES  */
+
+.redes {
+    padding: 10px;
+}
+
+.redes ul {
+    color: white;
+}
+
+.redes a {
+    text-decoration: none;
+    color: white;
+}
+
+.redes a:hover {
+    text-decoration: underline;
+}
