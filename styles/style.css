@@ -158,29 +158,29 @@ h1 {
 }
 
 .tarjeta_envio {
-    padding: 30px;
+    padding: 14px;
     padding-top: 32px;
     display: flex;
     flex-direction: row;
     align-items: center;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 10px;
 }
 
 .info_tarjeta {
     color: black;
-    padding: 0 15px 15px 15px;
+    padding: 15px;
     font-family: 'Source Sans 3', sans-serif;
 }
 
 .img_envio {
-    max-width: 80px;
+    max-width: 70px;
 }
 
 /*  TARJETAS PRODUCTOS  */
 
 .tarjetas {
-    padding: 60px;
+    padding: 50px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -227,7 +227,7 @@ h1 {
 }
 
 .destacados li {
-    padding: 5px;
+    padding: 10px;
     font-size: 30;
     font-family: 'Source Sans 3', sans-serif;
 }
@@ -292,4 +292,20 @@ h1 {
 
 .redes a:hover {
     text-decoration: underline;
+}
+
+.pages{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.pyr{
+    padding: 20px;
+    margin: 20px;
+}
+
+@media (min-width: 768px){
+
 }
