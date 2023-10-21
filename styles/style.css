@@ -12,14 +12,15 @@
 
 nav a {
     font-size: 20px;
-    padding-right: 20px;
+    padding-right: 18px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-decoration: none;
 }
 
 nav a:hover {
     color: #bbbbbb;
-    text-decoration: underline overline white;
+    font-size: 25px;
+
 }
 
 .nav_link {
@@ -30,8 +31,8 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 80px;
-    padding: 10px;
+    height: 70px;
+    padding: 5px;
     background: rgb(0, 0, 0);
 }
 
@@ -39,6 +40,7 @@ header {
 h1 {
     color: aliceblue;
     padding: 15px;
+    padding-bottom: 5px;
     font-family: 'Kanit', sans-serif;
 }
 
@@ -56,11 +58,11 @@ h1 {
 }
 
 .head_inputtext {
-    padding: 5px;
+    padding: 2px;
 }
 
 .head_inputboton {
-    padding: 5px;
+    padding: 2px;
 }
 
 .cuenta {
@@ -85,7 +87,7 @@ h1 {
     color: aliceblue;
     display: flex;
     height: 50px;
-    padding: 10px;
+    padding: 6px;
     background: rgb(0, 0, 0);
     border-top: #ffffff solid;
     border-left: 5px;
@@ -94,9 +96,9 @@ h1 {
     justify-content: space-around;
 }
 
-/*  IMAGEN DE MUESTRA  */
+/*  IMAGEN DE MUESTRA ANTIGUO */
 
-.img_principal {
+/* .img_principal {
     background-image: url("../img/muestra.webp");
     background-repeat: no-repeat;
     height: 83vh;
@@ -147,7 +149,7 @@ h1 {
 
 .botonropa a:hover {
     color: #bbbbbb;
-}
+} */
 
 /*  TARJETAS  */
 
@@ -180,7 +182,7 @@ h1 {
 /*  TARJETAS PRODUCTOS  */
 
 .tarjetas {
-    padding: 50px;
+    padding: 40px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -198,6 +200,11 @@ h1 {
     -webkit-box-shadow: 2px 1px 36px 1px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 2px 1px 36px 1px rgba(0, 0, 0, 0.75);
     box-shadow: 2px 1px 36px 1px rgba(0, 0, 0, 0.75);
+}
+
+.tarjetita__boton {
+    padding: 5px;
+    border-radius: 5px;
 }
 
 .informacion {
@@ -224,6 +231,7 @@ h1 {
 .destacados h2 {
     font-size: 35px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000000;
 }
 
 .destacados li {
@@ -232,13 +240,19 @@ h1 {
     font-family: 'Source Sans 3', sans-serif;
 }
 
+.destacados_fix {
+    display: inline-block;
+    text-align: left;
+}
 
 .destacados li:hover {
+    font-size: 20px;
     text-decoration: underline;
 }
 
-.destacados {
-    padding: 10px;
+.destacados_prin {
+    display: inline-block;
+    padding: 5px;
 }
 
 /*  FOOTER  */
@@ -271,7 +285,7 @@ h1 {
 .pagos {
     display: grid;
     grid-template-columns: 38px 38px 38px;
-    grid-template-rows: 25px 25px 25px;
+    grid-template-rows: 30px 30px 30px;
     padding: 10px;
 }
 
@@ -294,18 +308,168 @@ h1 {
     text-decoration: underline;
 }
 
-.pages{
+.navegacion {
+    padding: 10px;
+    text-align: left;
+    display: inline-block;
+}
+
+.navegacion ul {
+    color: white;
+    list-style: none;
+    text-align: left;
+}
+
+.navegacion a {
+    text-decoration: none;
+    color: white;
+}
+
+.navegacion a:hover {
+    text-decoration: underline;
+}
+
+
+.pages {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 30px;
 }
 
-.pyr{
+/*  MODIFICACIONES MINIMAS AL PREGUNTAS FRECUENTES DE BOOTSTRAP  */
+
+.pyr {
     padding: 20px;
     margin: 20px;
 }
 
-@media (min-width: 768px){
+/*  MODIFICACIONES MINIMAS AL CARRUSEL DE BOOTSTRAP  */
 
+.carousel-caption h5 {
+    color: white;
+}
+
+.carousel-caption p {
+    color: white;
+}
+
+.carousel-inner {
+    box-shadow: 0px 4px 5px 2px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 4px 5px 2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 4px 5px 2px rgba(0, 0, 0, 0.75);
+}
+
+.page-item a {
+    color: black;
+}
+
+/* RESPONSIVE DESING */
+
+@media screen and (max-width: 1115px) {
+    header {
+        flex-direction: column;
+        height: 165px;
+        padding: 5px;
+    }
+
+    .logo img {
+        height: 40px;
+    }
+
+    .busqueda {
+        padding: 2px;
+    }
+
+    .bar_nav {
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        height: 300px;
+        padding: 6px;
+    }
+
+    .carousel-item img {
+        height: 300px;
+    }
+
+    .carousel-caption {
+        height: 115px;
+    }
+
+    .carousel-caption h5 {
+        font-size: 15px;
+        padding-top: 50px;
+        color: white;
+    }
+
+    .carousel-caption p {
+        font-size: 10px;
+        color: white;
+    }
+
+    .carousel-indicators {
+        height: 5px;
+    }
+
+    .tarjetas_pra {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .tarjeta_envio {
+        padding: 5px;
+        padding-top: 20px;
+        gap: 1px;
+    }
+
+    .info_tarjeta {
+        color: black;
+        padding: 10px;
+        font-size: 15px;
+        font-family: 'Source Sans 3', sans-serif;
+    }
+
+    .img_envio {
+        max-width: 40px;
+    }
+
+    .peso {
+        margin-left: 40px;
+    }
+
+    .ropat {
+        margin-left: 20px;
+    }
+
+    .tarjetas {
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer_nav {
+        padding-top: 10px;
+    }
+
+    .paymetod {
+        padding-bottom: 15px;
+    }
+
+    .destacados_prin {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
