@@ -251,8 +251,10 @@ h1 {
 }
 
 .destacados_prin {
-    display: inline-block;
-    padding: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-right: 20px;
 }
 
 /*  FOOTER  */
@@ -273,7 +275,9 @@ h1 {
 /*  IMAGENES DE TARJETAS  */
 
 .paymetod {
-    display: grid;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .card-img {
@@ -292,7 +296,10 @@ h1 {
 /*  REDES  */
 
 .redes {
-    padding: 10px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .redes ul {
@@ -310,8 +317,9 @@ h1 {
 
 .navegacion {
     padding: 10px;
-    text-align: left;
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .navegacion ul {
@@ -435,6 +443,12 @@ h1 {
         max-width: 40px;
     }
 
+    .destacados li {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
     .peso {
         margin-left: 40px;
     }
@@ -456,20 +470,30 @@ h1 {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        padding-block: 15px;
     }
 
-    .footer_nav {
-        padding-top: 10px;
+    .navegacion {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
     }
 
     .paymetod {
-        padding-bottom: 15px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-bottom: 10px;
+    }
+
+    .redes {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
     }
 
     .destacados_prin {
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
     }
 }
