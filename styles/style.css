@@ -370,6 +370,66 @@ h1 {
     color: black;
 }
 
+/* PAGE CONTACTO */
+
+.contactopag{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+
+.contacto_h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.form_contacto p{
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+.form_general{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 15px;
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+.form_input{
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    padding-right: 145px;
+}
+
+.form_contacto ul {
+    color: rgb(0, 0, 0);
+}
+
+.form_contacto a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.form_contacto a:hover {
+    text-decoration: underline;
+}
+
+.form_map{
+    padding-bottom: 30px;
+}
+
+.textarea {
+    height: 30px;
+    width: 100%;
+    overflow: scroll;
+    resize: none;
+}
+
 /* RESPONSIVE DESING */
 
 @media screen and (max-width: 1115px) {
