@@ -24,7 +24,7 @@ window.addEventListener("load", function () {
             alert("¡Felicidades! podes trabajar con nosotros, envia tu curriculum a contacto@perchamerch.com.ar.")
         }
         else {
-            alert("Lamentablemente, no podes trabajar con nostros.")
+            alert("Lamentablemente, no podes trabajar con nosotros.")
         }
     })
 })
